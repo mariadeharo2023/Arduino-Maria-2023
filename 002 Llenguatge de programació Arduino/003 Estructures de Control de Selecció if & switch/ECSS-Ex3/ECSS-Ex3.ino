@@ -24,7 +24,7 @@ void setup() {              // configura el final de la salida
   {
     Serial.print("Aigua a punt de bullir.");
   }  
-  else if(tempaigua = 100)
+  else if(tempaigua == 100)
   {
     Serial.print("Aigua a 100C.");
   }
